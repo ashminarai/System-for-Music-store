@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="music_store">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="storename" type="xs:string" />
+        <xs:element name="logo"/>
+        <xs:element name="address" type="xs:string" />
+        <xs:element name="telephone_number">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="number">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="[9][8][0-9][\-][0-9]{3}[\-][0-9]{4}"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="website">
+         <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[www]{3}[.][a-z]*[.][c][o][m]"/>
+            </xs:restriction>
+        </xs:simpleType>
+        </xs:element>
+        <xs:element name="songs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="song">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="title" type="xs:string" />
+                    <xs:element name="image">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="id"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="singers">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="Singer" type="xs:string" />
+                          <xs:element minOccurs="0" maxOccurs="unbounded" name="backing_vocal" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="release_date" type="xs:date" />
+                    <xs:element minOccurs="0" name="album" type="xs:string" />
+                    <xs:element name="director">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="main_director" type="xs:string" />
+                          <xs:element minOccurs="0" name="assistant_director" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="musician">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="name">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="instrument" type="xs:string" use="required" />
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="rating">
+                      <xs:complexType>
+                        <xs:attribute name="count" type="xs:unsignedByte" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="writer" type="xs:string" />
+                    <xs:element name="producer" type="xs:string" />
+                    <xs:element name="audio">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="recording_engineer">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="role" use="required">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                          <xs:enumeration value="assistant"/>
+                                          <xs:enumeration value="main_engineer"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                  </xs:attribute>                                  
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="music_manager" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="composer" type="xs:string" />
+                    <xs:element minOccurs="0" name="music_label" type="xs:string" />
+                  </xs:sequence>
+                  <xs:attribute name="item" type="xs:unsignedByte" use="required" />
+                  <xs:attribute name="genre" type="xs:string" use="required" />
+                  <xs:attribute name="length" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,37 @@
+<!ELEMENT music_store (storename,logo,address,telephone_number,website,songs)>
+<!ELEMENT storename (#PCDATA)>
+<!ELEMENT logo (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT telephone_number (number)+>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT website (#PCDATA)>
+<!ELEMENT songs (song)+>
+<!ATTLIST song item CDATA #REQUIRED>
+<!ATTLIST song genre CDATA #REQUIRED>
+<!ATTLIST song length CDATA #REQUIRED>
+<!ELEMENT song (title,image,singers,release_date,album?,director,musician,
+                rating,writer,producer,audio,composer,music_label?)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT image EMPTY>
+<!ATTLIST image id ID #REQUIRED>
+<!ELEMENT singers (Singer+,backing_vocal*)>
+<!ELEMENT Singer (#PCDATA)>
+<!ELEMENT backing_vocal (#PCDATA)>
+<!ELEMENT release_date (#PCDATA)>
+<!ELEMENT album (#PCDATA)>
+<!ELEMENT director (main_director,assistant_director?)>
+<!ELEMENT main_director (#PCDATA)>
+<!ELEMENT assistant_director (#PCDATA)>
+<!ELEMENT musician (name)+>
+<!ATTLIST name instrument CDATA #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT rating EMPTY>
+<!ATTLIST rating count CDATA #REQUIRED>
+<!ELEMENT writer (#PCDATA)>
+<!ELEMENT producer (#PCDATA)>
+<!ELEMENT audio (recording_engineer+, music_manager?)>
+<!ATTLIST recording_engineer role (assistant|main_engineer) #IMPLIED>
+<!ELEMENT recording_engineer (#PCDATA)>
+<!ELEMENT music_manager (#PCDATA)>
+<!ELEMENT composer (#PCDATA)>
+<!ELEMENT music_label (#PCDATA)>

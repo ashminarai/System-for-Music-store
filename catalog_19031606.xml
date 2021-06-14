@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="catalog_19031606.css"?>
+<!-- <!DOCTYPE music_store SYSTEM "catalog_19031606.dtd"> -->
+<music_store>
+<storename>Music Store Nepal</storename>
+    <logo></logo>
+    <address>Itahari-9,Sunsari</address>
+    <telephone_number>
+        <number>980-000-0000</number>
+        <number>981-000-0000</number> 
+    </telephone_number>
+    <website>www.musicstorenepal.com</website>
+    <songs>
+    <song item="1" genre="folk" length="2:30">
+        <title>Ulta Paila</title>
+        <image id="image1"/>
+        <singers>
+            <Singer>Sajjan Rai Vaidya</Singer>    
+        </singers>
+        <release_date>2021-04-10</release_date>
+        <director>
+            <main_director>Sajjan Raj Vaidya</main_director>
+        </director>
+        <musician>
+            <name instrument="guitar">Kailas Subedi</name>
+            <name instrument="drum">Nurbu Lama</name>
+        </musician>
+        <rating count="5"/>
+        <writer>Sajjan Raj Vaidya</writer>
+        <producer>Sajjan Raj Vaidya</producer>
+        <audio>
+            <recording_engineer role="main_engineer">Suraj singh Thakuri</recording_engineer>
+            <recording_engineer role="assistant">Babita shrestha</recording_engineer>
+            <music_manager>Ojash Jung Adhikari</music_manager>
+        </audio>
+        <composer>Sajjan Raj Vaidya</composer>
+    </song>
+
+    <song item="2" genre="Pop" length="5:42">
+        <title>Fulbutte Sari</title>
+        <image id="image2"/>
+        <singers>
+            <Singer>Milan Newar</Singer>
+        </singers>
+        <release_date>2020-12-05</release_date>
+        <director>
+            <main_director>Rajesh Puma Rai</main_director>
+            <assistant_director>Raj dong "RD"</assistant_director>
+        </director>
+        <musician>
+            <name instrument="guitar">Sanjeev Baraili </name>
+            <name instrument="flute"> Ratna Bk</name>
+        </musician>
+        <rating count="3"/>
+        <writer>Rajan Raj Shiwakoti </writer>
+        <producer>Kendra Limbu</producer>
+        <audio>
+            <recording_engineer role="main_engineer">Utsav Dahal</recording_engineer>
+            <recording_engineer role="assistant">Dipen Gautam [Michael]</recording_engineer>
+        </audio>
+        <composer>Kendra Limbu</composer>
+        <music_label>t-series</music_label>
+    </song>
+
+    <song item="3" genre="country" length="5:21">
+        <title>Ko Hau Tme</title>
+        <image id="image3"/>
+        <singers>
+            <Singer> Surendra Man Singh (Karma Band)</Singer>
+            <Singer>Rajina Rimal</Singer>
+        </singers>
+        <release_date>2019-06-13</release_date>
+        <director>
+            <main_director>Simosh Sunuwar</main_director>
+        </director>
+        <musician>
+            <name instrument="guitar">Uttam Neupane </name>
+            <name instrument="drum">Surendra Man Singh</name>
+        </musician>
+        <rating count="3"/>
+        <writer>Prachanda Shrestha</writer>
+        <producer>Madhav Wagle and Narendra Maharjan</producer>
+        <audio>
+            <recording_engineer role="main_engineer">Uttam Neupane   </recording_engineer>
+            <recording_engineer role="assistant">Madhav Wagle</recording_engineer>
+        </audio>
+        <composer>Nisha Adhikari</composer>
+    </song>
+
+    <song item="4" genre="indie" length="2:30">
+        <title>Ma Chai Nepali</title>
+        <image id="image4"/>
+        <singers>
+            <Singer>Samriddhi Rai</Singer>
+        </singers>
+        <release_date>2014-09-18</release_date>
+        <director>
+            <main_director>Srawan Shrestha</main_director>
+            <assistant_director>Sonam Tshiring Lama</assistant_director>
+        </director>
+        <musician>
+            <name instrument="Saranghi">Kiran Nepali</name>
+            <name instrument="drum">sanjeev</name>
+        </musician>
+        <rating count="3"/>
+        <writer>Samriddhi Rai</writer>
+        <producer>Rohit Shakya</producer>
+        <audio>
+            <recording_engineer role="main_engineer"> Range Records </recording_engineer>
+            <recording_engineer role="assistant">Afsos maharjan</recording_engineer>
+        </audio>
+        <composer>Samriddhi rai</composer>
+    </song>
+
+     <song item="5" genre="folk" length="2:38">
+        <title>Ae Mutu</title>
+         <image id="image5"/>
+        <singers>
+            <Singer>Yabesh Thapa</Singer>
+            <backing_vocal>Zeroo</backing_vocal>    
+        </singers>
+        <release_date>2021-09-27</release_date>
+        <director>
+            <main_director>James Khati</main_director>
+        </director>
+        <musician>
+            <name instrument="guitar">Yabesh Thapa</name>
+            <name instrument="drum">Manoj Maharjan</name>
+        </musician>
+        <rating count="5"/>
+        <writer>Manoj Maharjan</writer>
+        <producer>Snjv.</producer>
+        <audio>
+            <recording_engineer role="main_engineer">ClassX Presentation</recording_engineer>
+            <recording_engineer role="assistant">Abinash Rai</recording_engineer>
+        </audio>
+        <composer>Yabesh Thapa</composer>
+        <music_label>ClassicXpresentation</music_label>
+    </song>
+
+    <song item="6" genre="country" length="2:38">
+        <title>Sanjha Pare Pachi</title>
+        <image id="image6"/>
+        <singers>
+            <Singer>SnehShree Thapa</Singer>
+            <Singer>Anmol Gurung</Singer>       
+        </singers>
+        <release_date>2019-02-18</release_date>
+        <director>
+            <main_director>Anmol Gurung</main_director>
+            <assistant_director>Prabha Subba</assistant_director>
+        </director>
+        <musician>
+            <name instrument="guitar">Anmol Gurung and Raja Chowdary </name>
+            <name instrument="flute">Soumyajyoti Ghosh </name>
+            <name instrument="violin">Sandeepan Ganguly</name>
+        </musician>
+        <rating count="5"/>
+        <writer>Anmol Gurung</writer>
+        <producer>Ruden Sada Lepcha</producer>
+        <audio>
+            <recording_engineer role="main_engineer"> MOUNTAIN STORIES </recording_engineer>
+            <recording_engineer role="assistant"> Hyssop Ministries Kalimpong / Studio Sangeet </recording_engineer>
+            <music_manager>Parashmani Dangi</music_manager>
+        </audio>
+        <composer>Puskar Singer</composer>
+        <music_label>t-series</music_label>
+    </song>
+
+    <song item="7" genre="country" length="2:11">
+        <title>Maana Ka Bhawana</title>
+        <image id="image7"/>
+        <singers>
+            <Singer>Apurva Tamang</Singer>     
+        </singers>
+        <release_date>2020-08-27</release_date>
+        <director>
+            <main_director>Anmol Gurung</main_director>
+        </director>
+        <musician>
+            <name instrument="guitar">Samrdhhi Khanal</name>
+        </musician>
+        <rating count="5"/>
+        <writer>Apurva Tamang</writer>
+        <producer>Apurva Tamang</producer>
+        <audio>
+            <recording_engineer role="main_engineer">Anxiety Records</recording_engineer>
+            <recording_engineer role="assistant">Hyssop Ministries Kalimpong / Studio Sangeet </recording_engineer>
+        </audio>
+        <composer> Zoman Rana</composer>
+    </song>
+
+    <song item="8" genre="Lyrical" length="2:11">
+        <title>Moha Moha K Dhaage</title>
+        <image id="image8"/>
+        <singers>
+            <Singer>Monali Thakur</Singer>     
+        </singers>
+        <release_date>2015-02-18</release_date>
+        <director>
+            <main_director>Sharat Katariya</main_director>
+        </director>
+        <musician>
+            <name instrument="flute">Varun Grover</name>
+        </musician>
+        <rating count="4"/>
+        <writer>Varun Grover</writer>
+        <producer>Maneesh Sharma</producer>
+        <audio>
+            <recording_engineer role="main_engineer">Anxiety Records</recording_engineer>
+            <recording_engineer role="assistant">Sharat Katariya</recording_engineer>
+        </audio>
+        <composer>Anu Malik</composer>
+        <music_label>t-series</music_label>
+    </song>
+
+    <song item="9" genre="country" length="6:46">
+        <title>Main Rahoon Ya Na Rahoon</title>
+        <image id="image9"/>
+        <singers>
+            <Singer>Armaan Malik</Singer>     
+        </singers>
+        <release_date>2015-11-24</release_date>
+        <album>Main Rahoon Ya Na Rahoon</album>
+        <director>
+            <main_director> Amit Sharma</main_director>
+        </director>
+        <musician>
+            <name instrument="guitar">Vinod Hutton</name>
+        </musician>
+        <rating count="5"/>
+        <writer>Rashmi Virag </writer>
+        <producer>Amey @ Audiogarage Studios.</producer>
+        <audio>
+            <recording_engineer role="main_engineer">Amey @ Audiogarage Studios</recording_engineer>
+            <recording_engineer role="assistant">Aasish Rai</recording_engineer>
+        </audio>
+        <composer>Anu Malik</composer>
+        <music_label>T-series</music_label>
+    </song>
+
+    <song item="10" genre="country" length="3:53">
+        <title>Juni Vari lai</title>
+        <image id="image10"/>
+        <singers>
+            <Singer>Oasis Thapa</Singer>     
+        </singers>
+        <release_date>2021-03-04</release_date>
+        <director>
+            <main_director>Breezendra</main_director>
+        </director>
+        <musician>
+            <name instrument="guitar">Oasis Thapa</name>
+        </musician>
+        <rating count="5"/>
+        <writer>Oasis Thapa</writer>
+        <producer>Oasis Thapa</producer>
+        <audio>
+            <recording_engineer role="main_engineer">Rajat Khadka </recording_engineer>
+            <recording_engineer role="assistant">Yang Hang Rai</recording_engineer>
+        </audio>
+        <composer>Rajat Khadka </composer>
+    </song>
+
+    <song item="11" genre="folk" length="3:53">
+        <title>Jaani Na Jaani</title>
+        <image id="image11"/>
+        <singers>
+            <Singer>Oasis Thapa</Singer>     
+        </singers>
+        <release_date>2020-08-26</release_date>
+        <director>
+            <main_director>Breezendra</main_director>
+        </director>
+        <musician>
+            <name instrument="guitar">Oasis Thapa</name>
+        </musician>
+        <rating count="5"/>
+        <writer>Oasis Thapa</writer>
+        <producer>Kobid</producer>
+        <audio>
+            <recording_engineer role="main_engineer">Gaurab </recording_engineer>
+            <recording_engineer role="assistant">Maanaswi</recording_engineer>
+            <music_manager>Yang Hang Rai</music_manager>
+        </audio>
+        <composer>Oasis Thapa</composer>
+    </song>
+
+    <song item="12" genre="Pop" length="5:25">
+        <title>Birsine Hauki</title>
+        <image id="image12"/>
+        <singers>
+            <Singer>Ishan Raj Onta</Singer>
+            <backing_vocal>Raunaq Singh Adhikari</backing_vocal> 
+            <backing_vocal>Dipesh Gurung</backing_vocal>         
+        </singers>
+        <release_date>2018-10-24</release_date>
+        <director>
+            <main_director>Shashank Pradhan</main_director>
+        </director>
+        <musician>
+            <name instrument="Acoustic guitar">Ishan Raj Onta</name>
+            <name instrument="guitar">Raunaq Singh Adhikari</name>
+            <name instrument="drum">Dipesh gurung</name>
+            <name instrument="bass">Pratick Baniya</name>
+            <name instrument="keyboard">Daniel Subba</name>
+        </musician>
+        <rating count="5"/>
+        <writer>Parashmani Dangi</writer>
+        <producer>Kobid</producer>
+        <audio>
+            <recording_engineer role="main_engineer"> Manzil Bikram KC </recording_engineer>
+            <recording_engineer role="assistant">Prasanna Singh Karki</recording_engineer>
+        </audio>
+        <composer>The Elements</composer>
+        <music_label>Channel Arbitrary</music_label>
+    </song>
+
+    <song item="13" genre="country" length="5:26">
+        <title>Sapanako Mayalu</title>
+        <image id="image13"/>
+        <singers>
+            <Singer>Ishan Raj Onta</Singer>
+            <backing_vocal>Raunaq Singh Adhikari</backing_vocal> 
+            <backing_vocal>Dipesh Gurung</backing_vocal>         
+        </singers>
+        <release_date>2019-12-02</release_date>
+        <director>
+            <main_director>Pavel Udas</main_director>
+        </director>
+        <musician>
+            <name instrument="Acoustic guitar">Ishan Raj Onta</name>
+            <name instrument="guitar">Raunaq Singh Adhikari</name>
+        </musician>
+        <rating count="5"/>
+        <writer>Shikshya basnet</writer>
+        <producer>Sanat Sharma</producer>
+        <audio>
+            <recording_engineer role="main_engineer"> Ukesh Pariyar</recording_engineer>
+            <recording_engineer role="assistant">Rakshak Bhushan Bajracharya </recording_engineer>
+        </audio>
+        <composer>The Elements</composer>
+        <music_label>Channel Arbitrary</music_label>
+    </song>
+
+    <song item="14" genre="Lyrical" length="5:26">
+        <title>Najeek</title>
+        <image id="image14"/>
+        <singers>
+            <Singer>Bartika Eam Rai</Singer>       
+        </singers>
+        <release_date>2016-03-13</release_date>
+        <album> Bimbaakash </album>
+        <director>
+            <main_director>Bartika Eam Rai</main_director>
+        </director>
+        <musician>
+            <name instrument="guitar">Bartika Eam Rai</name>
+        </musician>
+        <rating count="5"/>
+        <writer>Bartika Eam Rai</writer>
+        <producer>Diwas Gurung</producer>
+        <audio>
+            <recording_engineer role="main_engineer">Diawas Gurung</recording_engineer>
+            <recording_engineer role="assistant">Sworup Ranjit</recording_engineer>
+        </audio>
+        <composer>Bartika Eam Rai</composer>
+    </song>
+
+    <song item="15" genre="Pop" length="4:37">
+        <title>Maya Ma</title>
+        <image id="image15"/>
+        <singers>
+            <Singer>Sushant KC</Singer>       
+        </singers>
+        <release_date>2018-02-15</release_date>
+
+        <director>
+            <main_director>Sarans Pandey</main_director>
+            <assistant_director>Avinash Malla</assistant_director>
+        </director>
+        <musician>
+            <name instrument="guitar">Sushant KC</name>
+        </musician>
+        <rating count="5"/>
+        <writer>Sushant KC</writer>
+        <producer>Rahul Pradhan</producer>
+        <audio>
+            <recording_engineer role="main_engineer">Bishal Gurung</recording_engineer>
+            <recording_engineer role="assistant">Dipa Ranjit</recording_engineer>
+            <music_manager>Chiranjivi Basnet</music_manager>
+        </audio>
+        <composer>Sushant KC</composer>
+        <music_label>Sound Cloud</music_label>
+    </song>
+</songs>
+</music_store> 
